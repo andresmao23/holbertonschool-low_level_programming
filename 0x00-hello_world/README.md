@@ -6,3 +6,5 @@
 * Hello puts, exercise 4
 * Hello printf, exercise 5
 * Size is not grandeur, and territory does not make a nation, exercise 6
+* What happens when you type gcc main.c, This is a web blog, exercise 7
+* Intel, exercise 8
