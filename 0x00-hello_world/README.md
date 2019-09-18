@@ -3,4 +3,6 @@
 * Compiler, exercise 1
 * Assembler, exercise 2
 * Name, exercise 3
-* Hello, printf
+* Hello puts, exercise 4
+* Hello printf, exercise 5
+* Size is not grandeur, and territory does not make a nation, exercise 6
