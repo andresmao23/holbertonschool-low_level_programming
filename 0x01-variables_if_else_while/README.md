@@ -5,3 +5,4 @@
 * alphaBET, exercise 3
 * print alphabt, exercise 4
 * Numbers, exercise 5
+* Numberz, exercise 6
