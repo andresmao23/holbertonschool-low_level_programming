@@ -12,7 +12,7 @@ int main(void)
 
 	for (; a <= z ; a++)
 	{
-		if ( a == 101 || a == 113  )
+		if (a == 101 || a == 113)
 			a++;
 		putchar(a);
 	}
