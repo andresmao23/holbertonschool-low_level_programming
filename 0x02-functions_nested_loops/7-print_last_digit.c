@@ -4,7 +4,7 @@
  *
  * @n: parameter to check
  *
- * Return: Always 0 (Success)
+ * Return: @last
  */
 int print_last_digit(int n)
 {
