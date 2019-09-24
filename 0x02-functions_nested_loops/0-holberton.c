@@ -15,7 +15,9 @@ int main(void)
 
 	for (; i < len; i++)
 		_putchar(holberton[i]);
+
 	_putchar('\n');
+
 	return (0);
 
 }
