@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
-
 /**
  * _isalpha - check if the parameter is alpha
  *
@@ -8,7 +6,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int _isalpha(int c)
 {
 
