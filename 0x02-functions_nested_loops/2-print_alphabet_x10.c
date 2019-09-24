@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_alphabet - Prints the alphabet ten times
+ * print_alphabet_x10 - writes the character c to stdout
+ * @void: The character to print
  *
- * Return: Always 0 (Success)
  */
 
 void print_alphabet_x10(void)
