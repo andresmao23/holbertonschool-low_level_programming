@@ -10,13 +10,10 @@ int main(void)
 {
 
 	int i = 0;
-	char holberton[] = "Holberton";
-	int len = sizeof(holberton);
+	char holberton[] = "Holberton\n";
 
-	for (; i < len; i++)
+	for (; i < 10; i++)
 		_putchar(holberton[i]);
-
-	_putchar('\n');
 
 	return (0);
 
