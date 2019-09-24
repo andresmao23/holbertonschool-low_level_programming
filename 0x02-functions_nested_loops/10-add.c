@@ -5,7 +5,7 @@
  *@a: int number
  *@b: int number
  *
- *return (0)
+ *Return: a + b
  *
  */
 int add(int a, int b)
