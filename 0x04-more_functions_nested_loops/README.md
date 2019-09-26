@@ -2,3 +2,4 @@
 * isupper, exercise 0
 * is digit, exercise 1
 * mul, exercise 2
+* The numbers speak for themselves
