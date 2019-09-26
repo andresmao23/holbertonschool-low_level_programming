@@ -2,4 +2,7 @@
 * isupper, exercise 0
 * is digit, exercise 1
 * mul, exercise 2
-* The numbers speak for themselves
+* The numbers speak for themselves, exercise 3
+* Print most numbers, exercise 4
+* more numbers, exercise 5
+* print lines, exercise 6
