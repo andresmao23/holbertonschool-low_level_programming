@@ -2,6 +2,8 @@
 /**
  * times_table - prints a table
  *
+ * Return: void
+ *
  */
 void times_table(void)
 {
