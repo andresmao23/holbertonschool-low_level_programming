@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * puts2 - Print a string in reverse.
+ * puts2 - Print par.
  *
- * @str: char array pointer to reverse
+ * @str: char array pointer to print par
  *
  * Return void
  */
