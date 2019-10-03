@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- * string_toupper - reverse an array of strings.
+ * string_toupper - converts a string to upper.
  *
- * @a: array pointer to reverse
- * @n: array size
+ * @s: string to check
  *
  * Return: void
  */
