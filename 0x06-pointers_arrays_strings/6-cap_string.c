@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * cap_string - capitalize string.
  *
@@ -12,7 +11,6 @@ char *cap_string(char *s)
 	int i = 0, j;
 	char sepa[] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
 
-	printf("%s", s);
 	while (s[i] != '\0')
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
