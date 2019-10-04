@@ -17,7 +17,8 @@ char *leet(char *s)
 	{
 		for (j = 0 ; j < 5 ; j++)
 		{
-			
+			if (s[i] == may[j] || s[i] == min[j])
+				s[i] = num[j];
 		}
 	}
 	return (s);
