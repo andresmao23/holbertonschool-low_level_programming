@@ -2,31 +2,31 @@
 /**
  * cap_string - capitalize string.
  *
- * @s: string to check
+ * @cap: string to check
  *
- * Return: @s
+ * Return: @cap
  */
-char *cap_string(char *s)
+char *cap_string(char *cap)
 {
-	int i = 0, j;
-	char sepa[] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
+	int i;
+	char s[] = {10, 9, 32, 44, 46, 59, 33, 63, 34, 40, 41, 123, 125};
+	int j;
 
-	while (s[i] != '\0')
+	for (i = 0; cap[i] != '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
+		if (cap[i] >= 97 && cap[i] <= 122)
 		{
 			if (i == 0)
-				s[i] -= 32;
-		}
-		else
-		{
-			for (j = 0 ; j < 13 ; j++)
+				cap[0] = cap[0] - 32;
+			else
 			{
-				if (s[i - 1] == sepa[j])
-					s[i] -= 32;
+				for (j = 0; s[j] != '\0'; j++)
+				{
+					if (cap[i - 1] == s[j])
+						cap[i] = cap[i] - 32;
+				}
 			}
 		}
-		i++;
 	}
-	return (s);
+	return (cap);
 }
