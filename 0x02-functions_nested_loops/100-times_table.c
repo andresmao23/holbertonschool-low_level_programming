@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_times_table - Prints 9 table.
+ * print_times_table - Prints n table.
  *
  * @n: size of the matriz
  *
