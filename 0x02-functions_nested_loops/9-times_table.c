@@ -1,44 +1,63 @@
 #include "holberton.h"
 /**
- * times_table - prints a table
+ * fill_table - fill a matriz
+ *
+ * @table: matriz
  *
  * Return: void
  *
  */
-void times_table(void)
+void fill_table(int table[10][10])
 {
-	int n, i;
+	int i, j;
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		for (n = 0; n < 10; n++)
+		for (j = 0 ; j < 10 ; j++)
+			table[i][j] = i * j;
+	}
+}
+
+/**
+ * times_table - Prints 9 table.
+ *
+ * Return: Always 0.
+ */
+void times_table(void)
+{
+	int i, j;
+	int table[10][10];
+
+	/* Fill table */
+	fill_table(table);
+
+	/* Print the table */
+	for (i = 0 ; i < 10 ; i++)
+	{
+		for (j = 0 ; j < 10 ; j++)
 		{
-			if (n != 9)
+			if (table[i][j] < 10)
 			{
-				if ((i * n) > 9)
+				_putchar((table[i][j] % 10) + '0');
+				if (j != 9)
 				{
-					_putchar(((i * n) / 10) + '0');
-					_putchar(((i * n) % 10) + '0');
 					_putchar(',');
 					_putchar(' ');
-				}
-				else
-				{
-					_putchar(i * n + '0');
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
+					if (table[i][j + 1] < 10)
+					{
+						_putchar(' ');
+					}
 				}
 			}
 			else
 			{
-				if ((i * n) > 9)
+				_putchar((table[i][j] / 10) + '0');
+				_putchar((table[i][j] % 10) + '0');
+				if (j != 9)
 				{
-					_putchar(((i * n) / 10) + '0');
-					_putchar(((i * n) % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
 				}
-				else
-					_putchar(i * n + '0');
 			}
 		}
 		_putchar('\n');
